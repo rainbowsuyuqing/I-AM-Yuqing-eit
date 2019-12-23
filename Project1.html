@@ -8,20 +8,10 @@
     <!-- Bootstrap -->
     <link href="./bootstrap-4.3.1.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css">
-    <script>
-      window.onload=function () {
-        window.onkeypress=function (e) {
-          if (e.keyCode===113){
-            window.location.href="Mario-style-page1.html";
-          }
-        }
-      }
-    </script>
   </head>
   <body style="background-color: lightblue">
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">Navbar</a>
-
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -31,7 +21,7 @@
           <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" onClick="history.back(-1);"><i class="fa fa-arrow-left" aria-hidden="true">back</i></a>
+          <a class="nav-link" href="#" onClick="javascript :history.back(-1);"><i class="fa fa-arrow-left" aria-hidden="true">back</i></a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -47,13 +37,8 @@
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="photo%20gallery.html">Handcrafts</a>
           </div>
-
         </li>
       </ul>
-      <i class="fa fa-hand-o-right" aria-hidden="true" style="color: white;">Press "Q" to go back to game</i>
-      <button style="background-color: transparent;border-color: transparent" onclick="window.location.href='Mario-style-page1.html'"
-      onkeypress="">
-        <img src="./Surio/door.gif" style="float: right" alt="Press Q on keyboard to back to game"></button>
     </div>
   </nav>
 
@@ -95,7 +80,9 @@
             </address>
           </div>
           <div class="col-md-4 col-12">
-             <p class="text-center"><img class="img-fluid" src="./image/mine.jpg" alt="" width="100%"></p><br>
+                <p class="text-center"><img class="img-fluid" src="./image/mine.jpg" alt="" width="100%"></p><br>
+              </div>
+            </form>
           </div>
         </div>
       </div>
